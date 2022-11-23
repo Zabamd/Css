@@ -1,0 +1,104 @@
+/*
+Theme name: nomachine Front Theme
+Author: Amadeusz
+Version: 0.99
+Template: nomachinetheme
+*/
+
+/*Full page width*/
+* {
+  font-family: "Gudea", AG Foreigner Light-Plain Medium, sans-serif;
+}
+p {
+  line-height: 20px;
+}
+.site-inner,
+.entry-content {
+  max-width: 100% !important;
+}
+.entry-content {
+  margin: 25px auto !important;
+}
+.site-content {
+  padding: 0;
+}
+.content-section > .arrow-image {
+  margin: 0;
+  padding: 0;
+}
+/*Green link highlight */ 
+.content-section > p > a,
+.two-column-section > div > div > p > a {
+  color: #56c03e;
+}
+.content-section > h2 {
+  text-align: center;
+}
+.content-section {
+  padding: 0 20px;
+}
+.two-column-section-row {
+  gap: 30px;
+}
+
+.two-column-text-stack {
+  max-width: 50%;
+}
+.two-column-section-row > .row-with-buttons {
+  max-width: 100%;
+}
+.two-column-section-row,
+.content-section > p {
+  max-width: 960px;
+}
+
+.prevent-resize-img > figure {
+  min-width: 129px;
+}
+.prevent-resize-img {
+  align-items: flex-start !important;
+}
+
+.buttonStyle {
+  width: 161px;
+  height: 22px;
+  color: #fff;
+  line-height: 22px;
+  border-radius: 0.3em;
+  margin: 0 auto;
+  background-color: #408dc6;
+  overflow: hidden;
+}
+.buttonStyle > * {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+}
+.buttonStyle > a > img {
+  margin-bottom: 5px;
+}
+.buttonStyle > a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+.buttonStyle:hover {
+  background-color: #509ed7;
+}
+.blockButtonStyle {
+  gap: 10px;
+  padding-left: 4px;
+}
+.last-section {
+  padding-bottom: 25px;
+}
+#main {
+  margin-bottom: 0;
+}
+.two-column-text-stack:nth-child(even) {
+  padding-right: 10px;
+}
+.two-column-text-stack:nth-child(odd) {
+  padding-left: 10px;
+}
+
